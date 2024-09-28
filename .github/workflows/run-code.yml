@@ -1,0 +1,16 @@
+name: Keep Codespace Alive
+
+on:
+  schedule:
+    - cron: '*/1 * * * *' # This will run every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  keep_alive:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Ping Codespace
+      run: |
+        echo "Keeping Codespace alive!"
+        curl -s --head https://laughing-space-fishstick-r4r9gqq7vwjq3wjj9.github.dev/
