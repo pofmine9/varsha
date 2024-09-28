@@ -230,7 +230,7 @@ def restart(update: Update, context: CallbackContext) -> None:
 # Main function
 def main():
     # Set up the updater and dispatcher
-    updater = Updater("7942415625:AAG0DZF16t2jkc-4fzE5bSBMxk58xd47uYY", use_context=True)
+    updater = Updater("7633560932:AAGp2i9ThaQMtKvHbnmdZNaVNgZIcY0FIKU", use_context=True)
     dispatcher = updater.dispatcher
 
     # Register command handlers
