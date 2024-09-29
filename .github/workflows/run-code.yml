@@ -13,4 +13,4 @@ jobs:
     - name: Ping Codespace
       run: |
         echo "Keeping Codespace alive!"
-        curl -s --head https://laughing-space-fishstick-r4r9gqq7vwjq3wjj9.github.dev/
+        curl -s --head https://musical-dollop-r4r9gqq7v6jv359v4.github.dev/
