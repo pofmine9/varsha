@@ -13,4 +13,4 @@ jobs:
     - name: Ping Codespace
       run: |
         echo "Keeping Codespace alive!"
-        curl -s --head https://symmetrical-eureka-pjgvr447qqrv37rqj.github.dev/
+        curl -s --head https://supreme-sniffle-r4r9gqq7v6p72px7j.github.dev/
